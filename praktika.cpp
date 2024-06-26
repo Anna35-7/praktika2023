@@ -8,7 +8,7 @@
 
 using namespace std;
 short int spravka;
-//хехехех
+
 //Фцнкция для считывания ключа из файла и сихраняет в вектор magic
 vector<int> readMagicKey(const string& fileName) {
     ifstream keyFile(fileName);  //чтение из файла
@@ -96,7 +96,7 @@ string simpleSubstitutionDecipher(string text, const vector<int>& magic) {
     string decryptedText = decrypt(text, magic);
     return decryptedText;
 }
-
+// что-то
 bool isFileValid(const string& fileName) {
     ifstream fin(fileName);
     if (!fin.is_open()) {
