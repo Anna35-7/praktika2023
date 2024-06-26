@@ -96,7 +96,7 @@ string simpleSubstitutionDecipher(string text, const vector<int>& magic) {
     string decryptedText = decrypt(text, magic);
     return decryptedText;
 }
-// что-то
+
 bool isFileValid(const string& fileName) {
     ifstream fin(fileName);
     if (!fin.is_open()) {
@@ -194,7 +194,7 @@ void provKey(string kk) {
         exit(1);
     }
 }
-
+//ну и последнее
 int main(int argc, char* argv[]) 
 {
     setlocale(LC_ALL, "Russian");
