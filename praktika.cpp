@@ -194,7 +194,7 @@ void provKey(string kk) {
         exit(1);
     }
 }
-//ну и последнее
+
 int main(int argc, char* argv[]) 
 {
     setlocale(LC_ALL, "Russian");
